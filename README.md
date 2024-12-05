@@ -67,6 +67,7 @@ Python script runs `@reboot`
 
 ### Config.yaml
 
+|-|-|
 |--|--|
 |**controller**|simply the name of the controller. You can use `available_ports()` function in `utils.py` to get the exacte name.|
 |**date**|usefull to set the range of hours to trigger the automation, the number of time of activation|
