@@ -24,6 +24,8 @@ This project was born in collab with [Francois Dufeil](https://francoisdufeil.co
 
 [IMAGE]
 
+[VIDEO]
+
 It uses a raspberry PCA9685 shield and 16 solenoides ITS-LS3830BD.
 
 Python script runs `@reboot`
