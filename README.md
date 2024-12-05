@@ -10,7 +10,6 @@
 - [hardware limitations](#hardware-limitations)
 <!-- /TOC -->
 
-
 This project was born in collab with [Francois Dufeil](https://francoisdufeil.com/) and his sculptural works. 
 
 [IMAGE]
@@ -29,7 +28,7 @@ Python script runs `@reboot`
 
 ![software](ressources/diagram-software.svg)
 
-## Usage
+## Programm usage
 
 ### Two modes
 
@@ -95,7 +94,15 @@ note_on channel=0 note=68 velocity=100 time=0
 
 The `handle_score()` in `main.py` parse the file line by line to consider odds line with the delay between to midi messages.
 
-## hardware limitations
+## Electronic
+
+### Raspberry
+
+- RaspberryPi 4 with a PCA9685 shield
+
+### PCB layout
+
+## Hardware limitations
 
 - Because MIDI send 7bits values and the PCA9685 use 16bits value, consider use the `utils.convert()` function.
 - `['machine']` section in the `config.yaml`
