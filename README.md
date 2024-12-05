@@ -39,60 +39,59 @@ Python script runs `@reboot`
 
 ### Two modes
 
-- live 
+- **live** 
     - activate solenoides with a midi crontoller
-    - in `config.yaml` you can sets :
-        - `message.note` sets:`config.yaml ['mapping']['pads']`\
+    - in `config.yaml` you can set :
+        - `message.note`\
             to map the midi note of the controller
-        - `message.velocity` sets:`config.yaml['signal']` \
+        - `message.velocity`\
             it use the velocity to trigg the mosfet
-        - record a score. Note that the score is not recorded in .midi but in .txt (cf.[Class & Functions](#class--functions)>recorder)
-        - `message.control_change` to active dronying sets:`config.yaml ['mapping']['drony_sol_notes']`
-            - tick the `message.velocity` in the activation
-        - control change to modify the delay time for the drony sets:`config.yaml ['mapping']['potar_control']`
-    - remind to set the mapping before
-    - for the happening we use: 
+        - record a score. Note that the score is not recorded in .midi but in .txt (cf.[Class & Functions](#class--functions)>**recorder**)
+        - `message.control_change`\
+            to map the control_change note (cf.[Class & Functions](#class--functions)>**`toggle_drony()`**)
+    - for the happening \
+    more details : [MIDI hardware](#midi-hardaware)
         - Arturia KeyStep Pro → MIDI out
         - MIDI in → Arturia BeatStep Pro
     - do not care about `message.channel` or `message.time`
-- auto
-    - read a score recorded
+- **auto**
+    - read a score at the boot (cf.[Class & Functions](#class--functions)>**utils**>**`draw_lottery()`** and **`many_lottery()`**)
     - in `config.yaml` `date` where can set the range and the number of `draw_lottery()` defines in `utils.py`
-    - when auto mode is triggered, `handle_score()` will read at once a score. After the `first_playing_score` is set to False and the function wait to align now() to the target() to read another score
+    - when auto mode is triggered, `handle_score()` will read at once a score. After the `first_playing_score` is set to False and the function wait `now() == target()` to read the next score store in table_draw
     - `table_draw` is define with the `utils.many_draw(x)` function where x is the number of auto will be triggered
 
-### config.yaml
+### Config.yaml
 
-- controller \
+- **controller** \
 simply the name of the controller. You can use `available_ports()` function in `utils.py` to get the exacte name.
-- date \
+- **date** \
 usefull to set the range of hours to trigger the automation, the number of time of activation
-- signal \
+- **signal** \
 define the range of value (7bits for midi input and 16bits for PWM signal) and sommes default value when drony is triggered
-- PWM \
+- **PWM** \
 settings for the PCA9685 shield
-- mapping \
+- **mapping** \
 collection of midi notes and control_change to map the PWM channel of the PCA9685
-- machine \
+- **machine** \
 specifications of the machine (motors, btn_pin, led_pin) AND the `travel_time` table wich defines the `hit_length` of solenoides depending of the `message.velocity`
 
 ### Class & Functions
 
-- sol\
+- **sol**\
 It's base on async to let the motor the time to reach the contact point with the bells. 
-    - `tape()`\
+    - **`tape()`**\
     It automaticly set the travel_time `self.hit_length` by searching in the config.yaml at machine->motors->travel_time
-    - `toggle_drony()`\
+    - **`toggle_drony()`**\
     When call, it create an async task `self.drony()` or cancels it if `self.dronying` is True. It free some bandwith for the midi signal and you can set the time between two tapes with the `midi.control_change.value` into the `stream_potard()`
-    - `drony()`\
+    - **`drony()`**\
     Do not call by itself. The security heat setting is comments, ad the frequency calculator. the `self.delai_off` is set with the `self.stream_potar()` function
-    - `get_timer()`\
+    - **`get_timer()`**\
     It uses by security settings as well as frequency calculator
 
-- recorder
-    - `get_current_millis()`\
+- **recorder**
+    - **`get_current_millis()`**\
     the recorder needs to know the duration between two midi note. Yes it's only 1ms definition >.<
-    - `write()` and `record()`\
+    - **`write()`** and **`record()`**\
     realy simple and automated. You can call the `rec.record_score()` in each loop, it will record as the `rec.record_status == True` and stop when is False.
 
 You can take a look at the `handle_score()` in `main.py` or `recorder.py`.
@@ -106,13 +105,25 @@ note_off channel=0 note=67 velocity=64 time=0
 387
 note_on channel=0 note=68 velocity=100 time=0
 ```
-- player
-    - `read_file()`\
+- **player**
+    - **`read_file()`**\
     load a score in `self.raws`
-    - `parse_midi_string`\
+    - **`parse_midi_string`**\
     use the mido `Message()` function to return the line's score into a midi message
 
 The `handle_score()` in `main.py` parse the file line by line to consider odds line with the delay between to midi messages.
+
+- **utils**
+    - **`pca`**\
+    This is mendatory to use the driver just by calling `utils.pca.*<any_functions>*`
+    - **`draw_lottery()`** and **`many_lottery()`**\
+    Theses functions read how many `.txt` are in the root folder to set the table_draw list
+    - **`reset_all_pwn()`**\
+    Pretty secure to avoid any locked in solenoide at every boot
+    - **`available_ports()`**\
+    You can know the exacte name of your midi controller
+    - **`connecting_controller()`**\
+    Async function to let user switch the machine state before or after the keyboard pluged
 
 ## Electronic
 
@@ -164,6 +175,10 @@ you can find all in `config.yaml`:`machine`
 You can find some parts that we use to properly mount the brain inside the box.
 
 ![viewport](3D_modeling/viewport_0.png)
+
+## Maintenance, update
+
+For the software maintenance and modify some scores the raspberry is connected to my VPN so I have ssh access to modify, reboot, update, upgrade...
 
 ## Hardware limitations
 
