@@ -2,17 +2,19 @@
 
 <!-- TOC -->
 - [How it works](#how-it-works)
-    - [hardware diagram](#hardware-diagram)
-    - [Software diagram](#software-diagram)
+    - [General hardware diagram](#general-hardware-diagram)
+    - [General software diagram](#general-software-diagram)
 - [Programm usage](#programm-usage)
     - [Two modes](#two-modes)
-    - [config.yaml](#configyaml)
+    - [Config.yaml](#configyaml)
     - [Class & Functions](#class--functions)
 - [Electronic](#electronic)
     - [Components](#components)
     - [PCB layout](#pcb-layout)
     - [Wiring](#wiring)
 - [MIDI hardaware](#midi-hardaware)
+- [3D Modeling](#3d-modeling)
+- [Maintenance, update](#maintenance-update)
 - [Hardware limitations](#hardware-limitations)
 <!-- /TOC -->
 
