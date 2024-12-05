@@ -23,10 +23,11 @@ Python script runs `@reboot`
 
 ### hardware diagram
 
-![hardware](ressources/diagram_hardware.svg)
+![hardware](ressources/diagram-hardware.svg)
 
 ### Software diagram
 
+![software](ressources/diagram-software.svg)
 
 ## Usage
 
