@@ -96,15 +96,43 @@ The `handle_score()` in `main.py` parse the file line by line to consider odds l
 
 ## Electronic
 
-### Raspberry
+### Components
 
-- RaspberryPi 4 with a PCA9685 shield
+- RaspberryPi 4 with a [PCA9685 shield](https://www.waveshare.com/wiki/Fan_HAT)\
+I only use it for the PCA9685 chip controlled I2C
+    - installation \
+    ```
+    sudo apt update && sudo apt upgrade
+    sudo apt install python3-pip python3-smbus
+    sudo pip install RPi.GPIO
+    ```
+- [Button](https://www.gotronic.fr/art-bouton-poussoir-ip67-bt22b-l-v-34105.htm) to switch live/auto mode
+- [Emergency stop button](https://www.amazon.fr/gp/product/B097B8S6XL/ref=ox_sc_act_title_1?smid=A066248065M1IW1TJ2D&psc=1) connect only on the 48Volt power supply
+- 12V and 48V power supply. 12V for the Raspberry and 48V (we chose 420W) for the solenoides.
 
 ### PCB layout
 
+You can find the KiCad projet in `pcb_design/_src` folder. I chose the irl540 mosfet to design the regulator. 
+
+- Schem
+![schem](pcb_design/schematic-irl540_solenoide.svg)
+
+- Layout
+![layout](pcb_design/pcb_layout-irl540_solenoide.jpg)
+![schem](pcb_design/3D_view-irl540_solenoide.jpg)
+
+### Wiring
+
+- 16 pwm output from the pca9685 shield on the irl540 pcb with the common rapsberry and shield GND
+- button\
+you can find all in `config.yaml`:`machine`
+    - GPIO27 : pullup pin
+    - GPIO17 : led pin
+    - the GND is common
+
 ## Hardware limitations
 
-- Because MIDI send 7bits values and the PCA9685 use 16bits value, consider use the `utils.convert()` function.
+- Because MIDI send 7bits values and the PCA9685 use 16bits value, consider to use the `utils.convert()` function.
 - `['machine']` section in the `config.yaml`
     - *btn_pin* and *led_pin* to set a visual indication switch *live<->auto* mode
     - *travel_time*\
