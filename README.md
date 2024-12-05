@@ -1,14 +1,21 @@
 # cloches sous tensions
 
+<!-- TOC -->
 - [How it works](#how-it-works)
     - [hardware diagram](#hardware-diagram)
     - [Software diagram](#software-diagram)
-- [Usage](#usage)
+- [Programm usage](#programm-usage)
     - [Two modes](#two-modes)
     - [config.yaml](#configyaml)
     - [Class & Functions](#class--functions)
-- [hardware limitations](#hardware-limitations)
+- [Electronic](#electronic)
+    - [Components](#components)
+    - [PCB layout](#pcb-layout)
+    - [Wiring](#wiring)
+- [MIDI hardaware](#midi-hardaware)
+- [Hardware limitations](#hardware-limitations)
 <!-- /TOC -->
+
 
 This project was born in collab with [Francois Dufeil](https://francoisdufeil.com/) and his sculptural works. 
 
@@ -100,7 +107,7 @@ The `handle_score()` in `main.py` parse the file line by line to consider odds l
 
 - RaspberryPi 4 with a [PCA9685 shield](https://www.waveshare.com/wiki/Fan_HAT)\
 I only use it for the PCA9685 chip controlled I2C
-    - installation \
+    - installation
     ```
     sudo apt update && sudo apt upgrade
     sudo apt install python3-pip python3-smbus
@@ -112,7 +119,7 @@ I only use it for the PCA9685 chip controlled I2C
 
 ### PCB layout
 
-You can find the KiCad projet in `pcb_design/_src` folder. I chose the irl540 mosfet to design the regulator. 
+You can find the KiCad projet, .svg and .step in `pcb_design/_src` folder. I chose the irl540 mosfet to design the regulator. 
 
 - Schem
 ![schem](pcb_design/schematic-irl540_solenoide.svg)
@@ -131,6 +138,13 @@ you can find all in `config.yaml`:`machine`
     - the GND is common
 
 ![wiring](ressources/diagram-wiring.svg)
+
+## MIDI hardaware
+
+- [BeatStep Pro](https://www.arturia.com/fr/products/hybrid-synths/beatstep-pro/resources) made by Arturia. This is the master keyboard connected to the Raspberry Pi. You can download the Midi Control Center to map all the keys and match it in `config.yaml`.
+- [KeyStop Pro](https://www.arturia.com/fr/products/hybrid-synths/keystep-pro/resources) made by Arturia. We use it to send midi notes and play with all the features — record sequences, arpeggiators, pattern, scaling, arranging... — This keyboard is really easy to use and very versatil.
+
+![keyboad-connections](ressources/diagram-midi_keyboard.svg)
 
 ## Hardware limitations
 
