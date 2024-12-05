@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="WHN7KJUo0XjJs8HCU2_Z" name="Page-1">
-        <mxGraphModel dx="487" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="584" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -365,11 +365,6 @@
                             <mxPoint x="269" y="620"/>
                             <mxPoint x="270" y="620"/>
                         </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="97" value="+48V DC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="96" vertex="1" connectable="0">
-                    <mxGeometry x="0.1925" y="-1" relative="1" as="geometry">
-                        <mxPoint x="-208" y="16" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="98" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;+48V DC&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1" connectable="0">
