@@ -27,11 +27,11 @@ Python script runs `@reboot`
 
 ## How it works
 
-### hardware diagram
+### General hardware diagram
 
 ![hardware](ressources/diagram-hardware.svg)
 
-### Software diagram
+### General software diagram
 
 ![software](ressources/diagram-software.svg)
 
@@ -62,6 +62,19 @@ Python script runs `@reboot`
     - `table_draw` is define with the `utils.many_draw(x)` function where x is the number of auto will be triggered
 
 ### config.yaml
+
+- controller \
+simply the name of the controller. You can use `available_ports()` function in `utils.py` to get the exacte name.
+- date \
+usefull to set the range of hours to trigger the automation, the number of time of activation
+- signal \
+define the range of value (7bits for midi input and 16bits for PWM signal) and sommes default value when drony is triggered
+- PWM \
+settings for the PCA9685 shield
+- mapping \
+collection of midi notes and control_change to map the PWM channel of the PCA9685
+- machine \
+specifications of the machine (motors, btn_pin, led_pin) AND the `travel_time` table wich defines the `hit_length` of solenoides depending of the `message.velocity`
 
 ### Class & Functions
 
@@ -145,6 +158,12 @@ you can find all in `config.yaml`:`machine`
 - [KeyStop Pro](https://www.arturia.com/fr/products/hybrid-synths/keystep-pro/resources) made by Arturia. We use it to send midi notes and play with all the features — record sequences, arpeggiators, pattern, scaling, arranging... — This keyboard is really easy to use and very versatil.
 
 ![keyboad-connections](ressources/diagram-midi_keyboard.svg)
+
+## 3D Modeling
+
+You can find some parts that we use to properly mount the brain inside the box.
+
+![viewport](3D_modeling/viewport_0.png)
 
 ## Hardware limitations
 

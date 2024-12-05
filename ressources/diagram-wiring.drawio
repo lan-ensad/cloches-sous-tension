@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="WHN7KJUo0XjJs8HCU2_Z" name="Page-1">
-        <mxGraphModel dx="288" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="687" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -8,266 +8,266 @@
                     <mxGeometry x="200" y="140" width="410" height="520" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-                    <mxGeometry x="480" y="150" width="108.55" height="500" as="geometry"/>
+                    <mxGeometry x="480" y="150" width="90" height="500" as="geometry"/>
                 </mxCell>
                 <mxCell id="65" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry width="108.55" height="25" as="geometry"/>
+                    <mxGeometry width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="66" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;3V3&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="65" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="67" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;5V&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="65" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="62" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="25" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="25" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="63" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 12px;&quot;&gt;GPIO2&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#1ba1e2;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#ffffff;strokeColor=#006EAF;sketch=1;curveFitting=1;jiggle=2;" parent="62" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="64" value="5V" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="62" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="59" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="50" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="50" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="60" value="&lt;font color=&quot;#000000&quot;&gt;GPIO3&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#1ba1e2;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=#ffffff;strokeColor=#006EAF;sketch=1;curveFitting=1;jiggle=2;" parent="59" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="61" value="GND" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="59" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="56" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="75" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="75" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="57" value="GPIO4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="56" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="58" value="GPIO14" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="56" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="53" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="100" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="100" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="54" value="GND" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="53" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="55" value="GPIO15" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="53" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="50" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="125" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="125" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="51" value="&lt;font color=&quot;#000000&quot;&gt;GPIO17&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#60a917;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=#ffffff;strokeColor=#2D7600;sketch=1;curveFitting=1;jiggle=2;" parent="50" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="52" value="GPIO18" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="50" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="47" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="150" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="150" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="48" value="&lt;font color=&quot;#000000&quot;&gt;GPIO27&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#60a917;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=#ffffff;strokeColor=#2D7600;sketch=1;curveFitting=1;jiggle=2;" parent="47" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="49" value="GND" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="47" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="44" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="175" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="175" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="45" value="GPIO22" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="44" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="46" value="GPIO23" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="44" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="41" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="200" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="200" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" value="3V3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="41" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="43" value="GPIO24" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="41" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="38" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="225" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="225" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" value="GPIO10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="38" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="40" value="GND" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="38" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="35" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="250" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="250" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="36" value="GPIO9" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="35" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="37" value="GPIO25" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="35" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="32" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="275" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="275" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="33" value="GPIO11" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="32" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="34" value="GPIO8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="32" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="29" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="300" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="300" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="GND" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="29" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="31" value="GPIO7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="29" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="26" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="325" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="325" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="GPIO0" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="26" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="28" value="GPIO1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="26" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="23" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="350" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="350" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="GPIO5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="23" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="25" value="GND" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="23" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="20" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="375" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="375" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="GPIO6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="20" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="22" value="GPIO12" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="20" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="400" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="400" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="GPIO13" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="3" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="5" value="GND" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="3" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="425" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="425" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="GPIO19" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="15" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="17" value="GPIO16" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="15" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="450" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="450" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="GPIO26" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="11" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="13" value="GPIO20" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="11" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
-                    <mxGeometry y="475" width="108.55" height="25" as="geometry"/>
+                    <mxGeometry y="475" width="90" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="GND" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="7" vertex="1">
-                    <mxGeometry width="55" height="25" as="geometry">
-                        <mxRectangle width="55" height="25" as="alternateBounds"/>
+                    <mxGeometry width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="9" value="GPIO21" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="7" vertex="1">
-                    <mxGeometry x="55" width="54" height="25" as="geometry">
-                        <mxRectangle width="54" height="25" as="alternateBounds"/>
+                    <mxGeometry x="45" width="45" height="25" as="geometry">
+                        <mxRectangle width="45" height="25" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="89" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.468;exitY=0.977;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;elbow=vertical;startArrow=none;exitPerimeter=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="90" target="88" edge="1">
@@ -333,7 +333,7 @@
                 <mxCell id="86" value="led" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="390" y="315" width="40" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="88" value="IRL540&lt;br&gt;mosfet pcb" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                <mxCell id="88" value="IRL540&lt;br&gt;mosfet pcb&lt;br&gt;*4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="230" y="490" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="91" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;elbow=vertical;endArrow=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="70" target="90" edge="1">
@@ -356,6 +356,26 @@
                 </mxCell>
                 <mxCell id="93" value="16 channel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="360" y="500" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="" style="shape=flexArrow;endArrow=classic;html=1;strokeWidth=2;fontSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.169;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;exitPerimeter=0;" edge="1" parent="1" source="95" target="88">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="89.14" y="640.05" as="sourcePoint"/>
+                        <mxPoint x="490.8557287525381" y="671.545728752538" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="269" y="620"/>
+                            <mxPoint x="270" y="620"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="97" value="+48V DC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;sketch=1;curveFitting=1;jiggle=2;" vertex="1" connectable="0" parent="96">
+                    <mxGeometry x="0.1925" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-208" y="16" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="98" value="+48V DC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;sketch=1;curveFitting=1;jiggle=2;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="186.00348271503998" y="140.00063490948202" as="geometry">
+                        <mxPoint x="119" y="484" as="offset"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
