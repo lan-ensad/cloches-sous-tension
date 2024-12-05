@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="gmd0m68qbSqrnd76yPIm" name="Page-1">
-        <mxGraphModel dx="834" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+        <mxGraphModel dx="487" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -51,7 +51,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="21" value="12V -&amp;gt; 5V" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;sketch=1;curveFitting=1;jiggle=2;fillColor=#a20025;fontColor=#FFFFFF;strokeColor=#6F0000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+                <mxCell id="21" value="&lt;font color=&quot;#000000&quot;&gt;12V -&amp;gt; 5V&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;sketch=1;curveFitting=1;jiggle=2;fillColor=#a20025;fontColor=#FFFFFF;strokeColor=#6F0000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
                     <mxGeometry x="270" y="277.5" width="60" height="25" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" value="" style="shape=flexArrow;endArrow=classic;html=1;strokeWidth=2;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#a20025;strokeColor=#6F0000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" source="21" edge="1">
