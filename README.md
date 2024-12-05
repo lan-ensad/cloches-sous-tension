@@ -81,6 +81,7 @@ Python script runs `@reboot`
 - **sol{}**\
 Class\
 It's base on async to let the motor the time to reach the contact point with the bells.
+
 |function|description|
 |--|--|
 |**tape()**|It automaticly set the travel_time `self.hit_length` by searching in the config.yaml at machine->motors->travel_time| 
@@ -90,6 +91,7 @@ It's base on async to let the motor the time to reach the contact point with the
 
 - **recorder{}**\
 Class
+
 |function|description|
 |--|--|
 |**get_current_millis()**|the recorder needs to know the duration between two midi note. Only 1ms definition|
@@ -108,6 +110,7 @@ note_on channel=0 note=68 velocity=100 time=0
 ```
 - **player{}**\
 Class
+
 |function|description|
 |--|--|
 |**read_file()**|load a score in `self.raws`|
@@ -117,6 +120,7 @@ The `handle_score()` in `main.py` parse the file line by line to consider odds l
 
 - **utils[]**\
 Collection of functions
+
 |function|description|
 |--|--|
 |**pca**|Usefull to use the driver just by calling `utils.pca.*<any_functions>*`|
