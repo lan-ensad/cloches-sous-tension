@@ -67,7 +67,7 @@ Python script runs `@reboot`
 
 ### Config.yaml
 
-|-|-|
+|function|description|
 |--|--|
 |**controller**|simply the name of the controller. You can use `available_ports()` function in `utils.py` to get the exacte name.|
 |**date**|usefull to set the range of hours to trigger the automation, the number of time of activation|
@@ -81,7 +81,7 @@ Python script runs `@reboot`
 - **sol{}**\
 Class\
 It's base on async to let the motor the time to reach the contact point with the bells.
-|-|-|
+|function|description|
 |--|--|
 |**tape()**|It automaticly set the travel_time `self.hit_length` by searching in the config.yaml at machine->motors->travel_time| 
 |**toggle_drony()**|When call, it create an async task `self.drony()` or cancels it if `self.dronying` is True. It free some bandwith for the midi signal and you can set the time between two tapes with the `midi.control_change.value` into the `stream_potard()`|
@@ -90,7 +90,7 @@ It's base on async to let the motor the time to reach the contact point with the
 
 - **recorder{}**\
 Class
-|-|-|
+|function|description|
 |--|--|
 |**get_current_millis()**|the recorder needs to know the duration between two midi note. Only 1ms definition|
 |**write()** and **record()**|realy simple and automated. You can call the `rec.record_score()` in each loop, it will record as the `rec.record_status == True` and stop when is False.|
@@ -108,7 +108,7 @@ note_on channel=0 note=68 velocity=100 time=0
 ```
 - **player{}**\
 Class
-|-|-|
+|function|description|
 |--|--|
 |**read_file()**|load a score in `self.raws`|
 |**parse_midi_string()**|use the mido `Message()` function to return the line's score into a midi message|
@@ -117,7 +117,7 @@ The `handle_score()` in `main.py` parse the file line by line to consider odds l
 
 - **utils[]**\
 Collection of functions
-|-|-|
+|function|description|
 |--|--|
 |**pca**|Usefull to use the driver just by calling `utils.pca.*<any_functions>*`|
 |**draw_lottery()** and **many_lottery()**|Theses functions read how many `.txt` are in the root folder to set the table_draw list|
