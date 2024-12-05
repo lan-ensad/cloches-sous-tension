@@ -18,6 +18,7 @@
 - [Hardware limitations](#hardware-limitations)
 <!-- /TOC -->
 
+***
 
 This project was born in collab with [Francois Dufeil](https://francoisdufeil.com/) and his sculptural works. 
 
