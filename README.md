@@ -191,4 +191,3 @@ For the software maintenance and modify some scores the raspberry is connected t
     So the travel_time manages a manuel mapping with the `utils.find_index()` and the `travel_time` table in `config.yaml`
 - solenoide
     - security setting `max_dronying` exist but i finaly disable it in the exhibition version cause i did not notice too much heat during tests phase of the prototype. In addition sometimes it produces an axe drifting effect that is pretty satisfying and creates some cool patterns wich are not possible with the setting enable and the frequency of hit drasticly improve with `self.d.off`<15ms
-
