@@ -130,6 +130,8 @@ you can find all in `config.yaml`:`machine`
     - GPIO17 : led pin
     - the GND is common
 
+![wiring](ressources/diagram-wiring.svg)
+
 ## Hardware limitations
 
 - Because MIDI send 7bits values and the PCA9685 use 16bits value, consider to use the `utils.convert()` function.
