@@ -1,22 +1,31 @@
 # cloches sous tensions
 
 <!-- TOC -->
-- [How it works](#how-it-works)
-    - [General hardware diagram](#general-hardware-diagram)
-    - [General software diagram](#general-software-diagram)
-- [Programm usage](#programm-usage)
-    - [Two modes](#two-modes)
-    - [Config.yaml](#configyaml)
-    - [Class & Functions](#class--functions)
-- [Electronic](#electronic)
-    - [Components](#components)
-    - [PCB layout](#pcb-layout)
-    - [Wiring](#wiring)
-- [MIDI hardaware](#midi-hardaware)
-- [3D Modeling](#3d-modeling)
-- [Maintenance, update](#maintenance-update)
-- [Hardware limitations](#hardware-limitations)
+- [1. How it works](#1-how-it-works)
+    - [1.1. General hardware diagram](#11-general-hardware-diagram)
+    - [1.2. General software diagram](#12-general-software-diagram)
+- [2. Programm usage](#2-programm-usage)
+    - [2.1. Two modes](#21-two-modes)
+    - [2.2. Config.yaml](#22-configyaml)
+    - [2.3. Class & Functions](#23-class--functions)
+        - [2.3.1. sol](#231-sol)
+        - [2.3.2. recorder](#232-recorder)
+        - [2.3.3. player](#233-player)
+        - [2.3.4. utils](#234-utils)
+- [3. Electronic](#3-electronic)
+    - [3.1. Components](#31-components)
+    - [3.2. PCB layout](#32-pcb-layout)
+    - [3.3. Wiring](#33-wiring)
+- [4. MIDI hardaware](#4-midi-hardaware)
+- [5. 3D Modeling](#5-3d-modeling)
+- [6. Modification non-tested](#6-modification-non-tested)
+- [7. Known bugs](#7-known-bugs)
+- [8. V2 expected](#8-v2-expected)
+- [9. Maintenance, update](#9-maintenance-update)
+- [10. Hardware limitations](#10-hardware-limitations)
 <!-- /TOC -->
+
+
 
 ***
 
@@ -26,23 +35,23 @@ This project was born in collab with [Francois Dufeil](https://francoisdufeil.co
 
 [VIDEO]
 
-It uses a raspberry PCA9685 shield and 16 solenoides ITS-LS3830BD.
+It uses a raspberry PCA9685 shield and 16 solenoides ITS-LS3830BD and homemade pcbs with a mosfet type IRL540. The goal is control accuratly the velocity of the impact between motors and bells to be able to play *forte* and *piano*.
 
-Python script runs `@reboot`
+Python main script runs `@reboot`
 
-## How it works
+## 1. How it works
 
-### General hardware diagram
+### 1.1. General hardware diagram
 
 ![hardware](ressources/diagram-hardware.svg)
 
-### General software diagram
+### 1.2. General software diagram
 
 ![software](ressources/diagram-software.svg)
 
-## Programm usage
+## 2. Programm usage
 
-### Two modes
+### 2.1. Two modes
 
 - **live** 
     - activate solenoides with a midi crontoller
@@ -65,7 +74,7 @@ Python script runs `@reboot`
     - when auto mode is triggered, `handle_score()` will read at once a score. After the `first_playing_score` is set to False and the function wait `now() == target()` to read the next score store in table_draw
     - `table_draw` is define with the `utils.many_draw(x)` function where x is the number of auto will be triggered
 
-### Config.yaml
+### 2.2. Config.yaml
 
 |function|description|
 |--|--|
@@ -76,11 +85,11 @@ Python script runs `@reboot`
 |**mapping**|collection of midi notes and control_change to map the PWM channel of the PCA9685|
 |**machine**|specifications of the machine (motors, btn_pin, led_pin) AND the `travel_time` table wich defines the `hit_length` of solenoides depending of the `message.velocity`|
 
-### Class & Functions
+### 2.3. Class & Functions
 
-- **sol{}**\
-Class\
-It's base on async to let the motor the time to reach the contact point with the bells.
+#### 2.3.1. sol
+
+Main class based on asyncio
 
 |function|description|
 |--|--|
@@ -89,8 +98,7 @@ It's base on async to let the motor the time to reach the contact point with the
 |**drony()**|**Do not call by itself**. The security heat setting is comments, ad the frequency calculator. the `self.delai_off` is set with the `self.stream_potar()` function|
 |**get_timer()**|It uses by security settings as well as frequency calculator|
 
-- **recorder{}**\
-Class
+#### 2.3.2. recorder
 
 |function|description|
 |--|--|
@@ -108,8 +116,7 @@ note_off channel=0 note=67 velocity=64 time=0
 387
 note_on channel=0 note=68 velocity=100 time=0
 ```
-- **player{}**\
-Class
+#### 2.3.3. player
 
 |function|description|
 |--|--|
@@ -118,7 +125,7 @@ Class
 
 The `handle_score()` in `main.py` parse the file line by line to consider odds line with the delay between to midi messages.
 
-- **utils[]**\
+#### 2.3.4. utils
 Collection of functions
 
 |function|description|
@@ -126,12 +133,12 @@ Collection of functions
 |**pca**|Usefull to use the driver just by calling `utils.pca.*<any_functions>*`|
 |**draw_lottery()** and **many_lottery()**|Theses functions read how many `.txt` are in the root folder to set the table_draw list|
 |**reset_all_pwn()**|Pretty secure to avoid any locked in solenoide at every boot|
-|available_ports()|You can know the exacte name of your midi controller|
+|**available_ports()**|You can know the exacte name of your midi controller|
 |**connecting_controller()**|Async function to let user switch the machine state before or after the keyboard pluged|
 
-## Electronic
+## 3. Electronic
 
-### Components
+### 3.1. Components
 
 - RaspberryPi 4 with a [PCA9685 shield](https://www.waveshare.com/wiki/Fan_HAT)\
 I only use it for the PCA9685 chip controlled I2C
@@ -145,7 +152,7 @@ I only use it for the PCA9685 chip controlled I2C
 - [Emergency stop button](https://www.amazon.fr/gp/product/B097B8S6XL/ref=ox_sc_act_title_1?smid=A066248065M1IW1TJ2D&psc=1) connect only on the 48Volt power supply
 - 12V and 48V power supply. 12V for the Raspberry and 48V (we chose 420W) for the solenoides.
 
-### PCB layout
+### 3.2. PCB layout
 
 You can find the KiCad projet, .svg and .step in `pcb_design/_src` folder. I chose the irl540 mosfet to design the regulator. 
 
@@ -156,7 +163,7 @@ You can find the KiCad projet, .svg and .step in `pcb_design/_src` folder. I cho
 ![layout](pcb_design/pcb_layout-irl540_solenoide.jpg)
 ![schem](pcb_design/3D_view-irl540_solenoide.jpg)
 
-### Wiring
+### 3.3. Wiring
 
 - 16 pwm output from the pca9685 shield on the irl540 pcb with the common rapsberry and shield GND
 - button\
@@ -167,24 +174,48 @@ you can find all in `config.yaml`:`machine`
 
 ![wiring](ressources/diagram-wiring.svg)
 
-## MIDI hardaware
+## 4. MIDI hardaware
 
 - [BeatStep Pro](https://www.arturia.com/fr/products/hybrid-synths/beatstep-pro/resources) made by Arturia. This is the master keyboard connected to the Raspberry Pi. You can download the Midi Control Center to map all the keys and match it in `config.yaml`.
 - [KeyStop Pro](https://www.arturia.com/fr/products/hybrid-synths/keystep-pro/resources) made by Arturia. We use it to send midi notes and play with all the features — record sequences, arpeggiators, pattern, scaling, arranging... — This keyboard is really easy to use and very versatil.
 
 ![keyboad-connections](ressources/diagram-midi_keyboard.svg)
 
-## 3D Modeling
+## 5. 3D Modeling
 
 You can find some parts that we use to properly mount the brain inside the box.
 
 ![viewport](3D_modeling/viewport_0.png)
 
-## Maintenance, update
+## 6. Modification non-tested
+
+- time-mapping in microsecond instead milliseconds
+    - drasticly reduce the queue time
+    - more convient with live mode and recording mode
+- disable the first delay in the recorder
+- change toggle_drony() to activate_drony() and stop_drony()\
+    more stable and accurate to the note_on or note_off midi signal
+
+## 7. Known bugs
+
+- sometimes the recorder apply a 10 or 100 factore to the delay between two midi signal
+
+## 8. V2 expected
+
+- add redi server to catch and possibly change some values
+- separate all functions
+    - live
+    - routine
+    - reading
+- add node-red interface
+    - select score to play
+    - file system to explore the recorded scores
+
+## 9. Maintenance, update
 
 For the software maintenance and modify some scores the raspberry is connected to my VPN so I have ssh access to modify, reboot, update, upgrade...
 
-## Hardware limitations
+## 10. Hardware limitations
 
 - Because MIDI send 7bits values and the PCA9685 use 16bits value, consider to use the `utils.convert()` function.
 - `['machine']` section in the `config.yaml`
