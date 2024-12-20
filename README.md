@@ -187,7 +187,7 @@ You can find some parts that we use to properly mount the brain inside the box.
 
 ![viewport](3D_modeling/viewport_0.png)
 
-## 6. Modification non-tested
+## 6. Non-tested modifications
 
 - time-mapping in microsecond instead milliseconds
     - drasticly reduce the queue time
@@ -210,6 +210,15 @@ You can find some parts that we use to properly mount the brain inside the box.
 - add node-red interface
     - select score to play
     - file system to explore the recorded scores
+- change temporale structure mapping
+- improve BTN{}
+    - get_state()
+    - callback when trigger
+- improve PLAYER{}
+    - add sol inside
+    - player.read(), player.stop()...
+
+
 
 ## 9. Maintenance, update
 

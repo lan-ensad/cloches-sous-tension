@@ -1,0 +1,38 @@
+controller:
+  name: Arturia BeatStep Pro:Arturia BeatStep Pro Arturia Be 28:0
+
+date:
+  ### NOT USE IN EXHIBITION STATE ###
+  # hour_range: [10, 17]
+  # minute_range: [0, 59]
+  # total_draw: 3
+  ###################################
+  first_score: 1
+
+signal:
+  input_min: 0
+  input_max: 127  ## MIDI_6bits
+  output_min: 0
+  output_max: 65535 ##16bits channel
+  drony_start: 263
+  drony_max : 555
+  drony_min : 3
+
+PWM:
+  clock: 25000000 ## default 25000000 | lowest 1000000
+  freq: 50 ## 50Hz -> EU | lowest 1Hz@clock-lowest
+
+mapping:
+  potar_control: [20,21,22,23,24,25,26,27,28,29,30,31,46,47,52,53] ## midi control_change
+  drony_sol_notes: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15] ## midi note sol.dronying activation
+  pads: [60,61,62,63,64,65,66,67,68,69,70,71,72,73, 74,75] ## midi note sol.tape()
+  rec: 50 ## midi note
+  stop: 51 ## midi note
+  sol: [5,6,7,3,15,10,2,14,8,0,4,11,13,1,12,9] ## pwm pin - PCA9685
+
+machine:
+  nb_motors: 16
+  switch_btn_pin: 27
+  led_state_pin: 17 
+  travel_time:
+  - [250,200,180,150,135,120,115,110,105,100,95,90,85,75,70,65,55,50,45,40,35,30,25,20,15]
