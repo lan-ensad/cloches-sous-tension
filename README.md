@@ -31,9 +31,11 @@
 
 This project was born in collab with [Francois Dufeil](https://francoisdufeil.com/) and his sculptural works. 
 
-[IMAGE]
+![01](imgs/comp_Solenoide_2025_Francois_Dufeil_Musee_des_Beaux_Arts_Arras_credit_photo%20Salim%20Santa%20Lucia_2.jpg)
+![02](imgs/comp_Solenoide_2025_Francois_Dufeil_Musee_des_Beaux_Arts_Arras_credit_photo%20Salim%20Santa%20Lucia_4.jpg)
+![03](imgs/comp_Solenoide_2025_Francois_Dufeil_Musee_des_Beaux_Arts_Arras_credit_photo%20Salim%20Santa%20Lucia_5.jpg)
 
-[VIDEO]
+photo @[Salim Santa Lucia](http://salimsantalucia.com/)
 
 It uses a raspberry PCA9685 shield and 16 solenoides ITS-LS3830BD and homemade pcbs with a mosfet type IRL540. The goal is control accuratly the velocity of the impact between motors and bells to be able to play *forte* and *piano*.
 
@@ -202,7 +204,8 @@ You can find some parts that we use to properly mount the brain inside the box.
 
 ## 8. V2 expected
 
-- add redi server to catch and possibly change some values
+- add redis server to catch and possibly change some values
+- add logging
 - separate all functions
     - live
     - routine
@@ -214,7 +217,7 @@ You can find some parts that we use to properly mount the brain inside the box.
 - improve BTN{}
     - get_state()
     - callback when trigger
-- improve PLAYER{}
+- improve Player{}
     - add sol inside
     - player.read(), player.stop()...
 
