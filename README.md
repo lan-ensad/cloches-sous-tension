@@ -18,7 +18,7 @@
     - [3.3. Wiring](#33-wiring)
 - [4. MIDI hardaware](#4-midi-hardaware)
 - [5. 3D Modeling](#5-3d-modeling)
-- [6. Modification non-tested](#6-modification-non-tested)
+- [6. Non-tested modifications](#6-non-tested-modifications)
 - [7. Known bugs](#7-known-bugs)
 - [8. V2 expected](#8-v2-expected)
 - [9. Maintenance, update](#9-maintenance-update)
