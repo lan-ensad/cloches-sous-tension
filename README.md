@@ -39,7 +39,7 @@ photo @[Salim Santa Lucia](http://salimsantalucia.com/)
 
 It uses a raspberry PCA9685 shield and 16 solenoides ITS-LS3830BD and homemade pcbs with a mosfet type IRL540. The goal is control accuratly the velocity of the impact between motors and bells to be able to play *forte* and *piano*.
 
-Python main script runs `@reboot`
+Python main script runs `@reboot` in the `crontab` system.
 
 ## 1. How it works
 
