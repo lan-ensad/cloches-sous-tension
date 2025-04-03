@@ -35,7 +35,8 @@ This project was born in collab with [Francois Dufeil](https://francoisdufeil.co
 ![02](imgs/comp_Solenoide_2025_Francois_Dufeil_Musee_des_Beaux_Arts_Arras_credit_photo%20Salim%20Santa%20Lucia_4.jpg)
 ![03](imgs/comp_Solenoide_2025_Francois_Dufeil_Musee_des_Beaux_Arts_Arras_credit_photo%20Salim%20Santa%20Lucia_5.jpg)
 
-[![Regarder la vidéo](https://img.youtube.com/vi/u8s93TluLmw/0.jpg)](https://www.youtube.com/watch?v=u8s93TluLmw)
+**Video :**\
+[![video](https://img.youtube.com/vi/u8s93TluLmw/0.jpg)](https://www.youtube.com/watch?v=u8s93TluLmw)
 
 photo @[Salim Santa Lucia](http://salimsantalucia.com/)
 
