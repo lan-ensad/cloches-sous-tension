@@ -35,6 +35,8 @@ This project was born in collab with [Francois Dufeil](https://francoisdufeil.co
 ![02](imgs/comp_Solenoide_2025_Francois_Dufeil_Musee_des_Beaux_Arts_Arras_credit_photo%20Salim%20Santa%20Lucia_4.jpg)
 ![03](imgs/comp_Solenoide_2025_Francois_Dufeil_Musee_des_Beaux_Arts_Arras_credit_photo%20Salim%20Santa%20Lucia_5.jpg)
 
+![video](https://www.youtube.com/watch?v=u8s93TluLmw&feature=youtu.be)
+
 photo @[Salim Santa Lucia](http://salimsantalucia.com/)
 
 It uses a raspberry PCA9685 shield and 16 solenoides ITS-LS3830BD and homemade pcbs with a mosfet type IRL540. The goal is control accuratly the velocity of the impact between motors and bells to be able to play *forte* and *piano*.
